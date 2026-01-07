@@ -1,1 +1,29 @@
-here you arererrererreeeeee
+here you arererrererreeeeee@NgModule({
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    NotFoundComponent,
+    CustomDirectiveDirective,
+   
+   
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CardComponent,
+    SharedModule
+  ],
+  providers: [provideHttpClient()],
+  bootstrap: [AppComponent]
+})
+manajamtsh nekteb ken makhrajesh koli fy push
+export class AppModule { }
+AppModule: appcomponent-HeaderComponent-footercomponent-homecomponent
+QuizModule: quizcomponent-quizPlaycomponent-quizFormcomponent
+les modeles: export class Answer{
+  id!:number;
+  text!:string;
+  isCorrect!:boolean;
+}
